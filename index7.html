@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p>You deserve every bit of it, Onome. Here’s to more laughs,  chats, and who knows, maybe even picking up more of your calls. 😉
+                        <br>Cheers to you <br> With love,
+                        <br> BIGGEST MO.</p>
+                        <div class="button">
+                            <button onclick="goToPreviousPage()">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

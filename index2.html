@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p>You know I’m a "certified loner," and I don’t usually go around collecting friends like I collect unread messages. <br> But you? You’re different. Even when I didn’t pick up the phone, you just kept calling and checking in, sharing stories, laughing, yapping away—and I secretly started looking forward to it. <br>
+                 
+                    </p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                        <button onclick="goToPreviousPage()">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index3.html';
+    }
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

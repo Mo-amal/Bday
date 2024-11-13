@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p>I hope our friendship stays tight, and I *cannot wait* for your wedding one day—when I get to see you in love and thriving like only you can! <br>On your birthday, I hope you’re surrounded by as much laughter and love as you bring to the people around you. </p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                        <button onclick="goToPreviousPage()">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index7.html';
+    }
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

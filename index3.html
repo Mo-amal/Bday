@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p> I used to think I was boy-crazy… until I met you, and wow, you redefined the term! <br> 😂I really admire how you make everyone around you feel comfortable. 
+                        I know it’s not easy to move to a new place, especially after everything you went through leaving Ukraine. And now? You’re already thriving in this new life, with an amazing job. 
+                    </p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                        <button onclick="goToPreviousPage()">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index4.html';
+    }
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

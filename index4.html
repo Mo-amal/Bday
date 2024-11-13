@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p>Your strength is incredible, and your kindness is so real. <br>I’ll never forget how you tried to help me with my coding (even though, let’s be honest, you’re as clueless about it as I am!). But you did it anyway, just because that’s who you are.</p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                        <button onclick="goToPreviousPage()">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index5.html';
+    }
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

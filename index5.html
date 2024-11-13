@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper flap">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p>I love how passionate you are about politics, even if it's far from my own thing. <br>While I like escaping the world, you’re out here trying to change it, and that’s inspiring. Thank you for reminding me what friendship looks like, what it means to have someone who cares.</p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                        <button onclick="goToPreviousPage()">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index6.html';
+    }
+    function goToPreviousPage() {
+        window.history.back();
+    }
+   </script>
+</body>
+</html>

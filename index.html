@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <h1>Dear Onome</h1>
+                    <p>Happy Birthday! 🎉 <br>  I don’t say this lightly, but meeting you at the Christmas party last year turned out to be one of the best surprises.</p>
+                    <div class="button">
+                        <button onclick="goToNextPage()">Next Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+   </div>
+   <script>
+    function goToNextPage() {
+        window.location.href = 'index2.html';
+    }
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+   </script>
+</body>
+</html>
